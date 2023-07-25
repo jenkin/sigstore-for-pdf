@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "sigstore-for-pdf"
+version = "0.1.0"
+description = "Sign PDF documents with sigstore"
+authors = ["Alessio Cimarelli <alessio.cimarelli@sparkfabrik.com>"]
+license = "Proprietary"
+readme = "README.md"
+packages = [{include = "sigstore_for_pdf"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sigstore = "^1.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
